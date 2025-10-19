@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para1">My name is Arnaav</p>
+    <button Onclick = "ChangeText()">Change</button>
+    <script>
+var flag = 0
+function ChangeText(){
+    if(flag==0){
+        document.getElementById("para1").innerHTML = "My name is Arnaav"
+        flag=1
+    }
+    else{
+        document.getElementById("para1").innerHTML = "My name is Arnav"
+        flag=0
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
